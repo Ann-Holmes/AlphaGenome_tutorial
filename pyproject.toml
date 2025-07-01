@@ -1,0 +1,12 @@
+[project]
+name = "alphagenome_tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alphagenome",
+]
+
+[tool.uv.sources]
+alphagenome = { git = "https://github.com/google-deepmind/alphagenome" }
